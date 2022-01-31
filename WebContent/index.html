@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="">
+<meta charset="ISO-8859-1">
+<title>Pagina Iniziale</title>
+</head>
+<body>
+
+<h1 style="color:rgb(0, 0, 255)">BANCOMAT</h1>
+
+<form  method="post" action="conto">
+
+			<label for="id">Inserire conto ID:</label>
+			<input type="number" name="id"><br>
+			<p>
+			Inserire Importo:<input type="number" name="importo"><br>
+			 <p>
+		<label for="banca">Tipo Operazione</label>
+		<select name="tipomovimento" id="banca">
+		  <option value="preleva">Prelievo</option>
+		  <option value="deposita">Deposita</option>
+		  	<option value="saldo">Saldo</option>
+		</select>
+		  		
+		  			<input class="cod" type="submit" value="invia">
+		</form>
+		<hr>
+		<br>
+		
+		<a href="index.html">Refresh</a>
+		
+		
+</body>
+
+</html>
+		  		
